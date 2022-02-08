@@ -1,8 +1,10 @@
-# rashaahamed.github.io - All My Work
+# rashaahamed.github.io - all my work
+
 
 ## Technical Writing Course
 
  - [Final Project](https://rashaahamed.github.io/final_project_tr/index.html)
+
 
 ## JavaScript Basics
 
