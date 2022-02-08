@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1">
+        <title> Calculator </title>
+        <link rel = "stylesheet" href = "components/style/index.css" media = "all">
+        <script defer src = "components/scripts/calculator.js"></script>
+        <link rel = "stylesheet" href = "https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        
+        <header>
+            <div class="container flexbox">
+                <div class="title">
+                    <h1>Online Calculator</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#" target="_blank">Graphing</a></li>
+                    <li><a href="#" target="_blank">Graphing</a></li>
+                    <li><a href="#" target="_blank">Programmer</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <form name="calculator" class="grid-container">
+            <input type="text" name="display" id="display" disabled>
+
+            <input type="button" value="1" id="one">
+            <input type = "button" value = "2" id = "two">
+            <input type = "button" value = "3" id = "three">
+            <input type = "button" value = "4" id = "four">
+            <input type = "button" value = "5" id = "five">
+            <input type = "button" value = "6" id = "six">
+            <input type = "button" value = "7" id = "seven">
+            <input type = "button" value = "8" id = "eight">
+            <input type = "button" value = "9" id = "nine">
+            <input type = "button" value = "0" id = "zero">
+
+            <input type = "button" id = "clear" name = "clear" value = "C">
+            <input type = "button" value = "=" id = "equals">
+
+            <input type = "button" class = "operator" value = "+" id = "plus">
+            <input type = "button" class = "operator" value = "-" id = "minus">
+            <input type = "button" class = "operator" value = "x" id = "multiply">
+            <input type = "button" class = "operator" value = "/" id = "divide">
+        </form>
+    </body>
+</html>

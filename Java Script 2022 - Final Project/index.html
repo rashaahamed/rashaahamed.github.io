@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Search Engine</title>
+        <link rel="shortcut icon" href="assets/img/favicon.png?v=2" type="image/x-icon">
+        <link rel="stylesheet" href="assets/style/style.css" media="all">
+
+        <!-- Link to Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap" rel="stylesheet">
+        
+        <script src="assets/scripts/index.js" defer></script>
+    </head>
+    <body>
+
+        <!-- How the Login Nav Option pops up -->
+
+        <div id="popup">
+            <i id="x" class="far fa-times-circle"></i>
+            <h2>Login</h2>
+            <form class="browser" novalidate>
+                <input type="text" id="username" placeholder="Username *"> 
+                <input type="password" id="password" placeholder="Password *">
+                <div id="submitdiv">
+                    <input type="button" id="submit" value="Login">
+                </div>  
+                <p id="message"></p>
+                <a href="sign-up.html">Don't have an account?</a>
+            </form>
+        </div>
+
+        
+
+
+            <header>
+                <div class="container flexbox">
+                    <div class="title">
+                        <h1>Search Engine</h1>
+                    </div>
+                    <nav>
+                        <ul>
+                        <li><a href="sign-up.html" target="_blank">Sign Up</a></li>
+                        <!-- JavaScript UI -->
+                        <li><a id="login-button">Login</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            
+            <div class="container"> 
+                <div class="main-form">
+                    <form name="search">
+                        <h2>Search Bar</h2>
+                        <!-- JavaScript UI -->
+                        <input type="text" id="url" name="url">
+                        <input disabled type="button" id="google" value="Google">
+                        <input disabled type="button" id="bing" value="Bing">
+                    </form>
+                </div>
+
+                <!-- JavaScript UI -->
+                <p id="inform"></p>
+            </div> 
+
+    </body>
+</html>
+
+<!-- TO WORK ON:
+
+    1. FIXING THE DESIGN OF THE MAIN FORM
+    2. CHANGE BODY DESIGN
+    3. FOCUS ON JAVASCRIPT
+    4. MAKE DARK MODAL WHEN LOGIN POPUP
+
+-->

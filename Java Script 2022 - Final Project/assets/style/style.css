@@ -1,0 +1,278 @@
+@import "base.css";
+
+
+.form {
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    padding: 30px;
+    width: 50%;
+    text-align: left;
+    background-color: #fff;
+}
+
+.form p, h1, h2, input, textarea{
+    color: #000;
+}
+
+
+
+
+
+/*styles the inputs*/
+form input{
+    color: rgb(24, 24, 24);
+    padding: 10px;
+
+    /*this styles the input boxes too have certain width and height*/
+    height: 50px;
+    width: 150px;
+}
+
+ 
+.copyright {
+    height: 40px;
+    text-align: right;
+}
+ 
+.copyright p {
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: 400;
+}  
+
+.main-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    padding: 88px 0;
+    width: 50%;
+    margin: auto;
+}
+
+.main-form h2 {
+    text-align: center;
+    font-size: 46px;
+    font-weight: 400;
+    color: #000;
+    letter-spacing: .5px;
+    margin-bottom: 20px;
+}
+
+
+#popup{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 9;
+    padding: 80px 40px 40px 40px;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 35%;
+    height: 60%;
+    text-align: center;
+    background-color: #fff;
+}
+
+#popup i{
+    font-size: 25px;
+    margin-left: 100%;
+    position: absolute;
+    top: 8%;
+    right: 8%;
+}
+
+#popup.visible{
+    display: block;
+}
+
+#popup h2{
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+#submit {
+    background-color: #3471eb;
+    width: 50%;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 20px;
+    transition: 0.5s ease-in-out;
+}
+
+#submit:hover {
+    background-color: #5183e8;
+    color: #fff;
+}
+
+#message{
+    margin-bottom: 8px;
+}
+
+.browser input{
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 100%;
+    background-color: #fff;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.browser a {
+    text-decoration: underline;
+    color: #000;
+    transition: 0.5s ease-in-out;
+}
+
+.browser a:hover {
+    color: #999999;
+}
+
+#message {
+    margin-top: 20px;
+}
+
+#url{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;    width: 100%;
+    padding: 20px;
+}
+
+#google{
+    width: 40%;
+    margin: 10px;
+    background-color: #3471eb;
+    cursor: not-allowed;
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+}
+
+#bing{
+    margin: 10px;
+    width: 40%;
+    background-color: #3471eb;
+    cursor: not-allowed;
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+}
+
+input {
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#inform{
+    margin-top: 10px;
+    color: #000;
+}
+
+.form p, input {
+    text-align: left;
+    color: #000;
+    font-size: 16px;
+}
+
+.form h2 {
+    text-align: center;
+    font-size: 46px;
+    font-weight: 400;
+    color: #000;
+    letter-spacing: .5px;
+    margin-bottom: 20px;
+}
+
+.registration input{
+    width: 100%;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 20px;
+}    
+
+
+#msg-name {
+    font-size: 12px;
+    color: #eb4034;
+}
+
+#msg-last {
+    font-size: 12px;
+    color: #eb4034;
+}
+
+#msg-age {
+    font-size: 12px;
+    color: #eb4034;
+}
+
+#msg-email {
+    font-size: 12px;
+    color: #eb4034;
+}
+
+#submit-message {
+    font-size: 12px;
+    color: #eb4034;
+}
+
+#clear {
+    background-color: #fff;
+    border: 1px solid #999999;
+    width: 50%;
+    color: #000;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 20px;
+    transition: 0.5s ease-in-out;
+}
+
+#clear:hover {
+    background-color: #999999;
+    color: #fff;
+}
+
+
+@media screen and (min-width: 200px){
+    #popup{
+        width: 70%;
+        padding-top: 40px;
+    }
+
+    .form{
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 720px){
+    #popup{
+        width: 60%;
+        padding-top: 40px;
+    }
+
+    .form{
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 1080px){
+    #popup{
+        padding-top: 80px;
+        width: 35%;
+    }
+
+    .form {
+        width: 50%;
+    }
+}
